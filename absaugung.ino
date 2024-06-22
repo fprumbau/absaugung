@@ -26,6 +26,13 @@
       pinMode(12, OUTPUT);		//Anschluss Signalleuchte Blast Gate 2
       pinMode(13, OUTPUT);		//Anschluss Signalleuchte Blast Gate 3
 
+      bg1set = true;
+      bg2set = true;
+      bg3set = true;
+
+      BG1(0);
+      BG2(0);
+      BG3(0);
     }
 
     //___________FUNKTION "schalten"________________
